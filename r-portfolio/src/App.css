@@ -1,27 +1,27 @@
 :root {
-  --timberwolf: rgb(206, 205, 218);
+  --white-purple: rgb(206, 205, 218);
   --light-purple: rgb(138, 141, 177);
   --navy-purple: rgb(87, 101, 129);
   --grey-purple: rgb(58, 66, 90);
-  --dark-purple: rgb(52, 52, 78);
+  --dark-purple: rgb(8, 8, 41);
   --font: 'Roboto', sans-serif;; 
 }
 
 body {
-  background-color: var(--timberwolf);
+  background-color: var(--white-purple);
 }
 span {
-  color: var(--fern-green);
+  color: var(--navy-purple);
 }
 
 header {
-  border-bottom: 10px solid var(--brunswick-green);
-  background-color: var(--sage);
+  border-bottom: 10px solid var(--navy-purple);
+  background-color: var(--white-purple);
 }
 
 h1 {
   font-family: var(--font);
-  color: var(--hunter-green)
+  color: var(--navy-purple)
 }
 
 ul {
@@ -30,47 +30,42 @@ ul {
 
 h2 {
   font-family: var(--font);
-  color: var(--hunter-green);
+  color: var(--light-purple);
   font-weight: bold;
-}
-
-.aboutContainer {
-  border-left: 10px solid var(--brunswick-green);
-  border-right: 10px solid var(--brunswick-green)
 }
 
 p {
   font-family: var(--font);
-  color: var(--hunter-green);
+  color: var(--dark-purple);
   font-weight: bold;
 }
 
 .nav-link {
   font-family: var(--font);
-  color: var(--brunswick-green);
+  color: var(--grey-purple);
 }
 
 .nav-link:hover {
-  background-color: var(--timberwolf);
+  background-color: var(--white-purple);
   color: var(--navy-purple);
 }
 
 .nav-link.active {
-  background-color: var(--timberwolf);
+  background-color: var(--white-purple);
   color: var(--brunswick-green);
   font-weight: bold;
   text-decoration: underline;
 }
 
 footer {
-  background-color: var(--sage);
+  background-color: var(--navy-purple);
   text-align: center;
-  border-top: 10px solid var(--brunswick-green);
+  border-top: 10px solid var(--grey-purple);
   padding: 20px;
 }
 
 .iconLink {
-  color: var(--brunswick-green);
+  color: var(--dark-purple);
 }
 
 .projectPic {
@@ -79,27 +74,33 @@ footer {
 }
 
 .card {
-  background-color: var(--sage);
+  background-color: var(--light-purple);
   padding: 10px;
 }
 
 .button {
-  background-color: var(--brunswick-green);
+  background-color: var(--navy-purple);
   border: solid;
-  border-color: var(--fern-green);
+  border-color: var(--light-purple);
 
+}
+
+.button:hover {
+  background-color: var(--light-purple);
+  border: solid;
+  border-color: var(--navy-purple);
 }
 
 h3 {
-  color: var(--hunter-green);
+  color: var(--dark-purple);
   font-family: var(--font);
   padding-bottom: 10px;
-  border-bottom: solid 5px var(--brunswick-green);
+  border-bottom: solid 5px var(--dark-purple);
 }
 
 .customListItem {
-  background-color: var(--sage);
-  color: var(--hunter-green);
+  background-color: var(--light-purple);
+  color: var(--dark-purple);
   padding: 10px;
   margin: 5px;
   font-family: var(--font);
