@@ -1,14 +1,17 @@
 :root {
   --timberwolf: rgb(206, 205, 218);
-  --sage: rgb(138, 141, 177);
-  --fern-green: rgb(87, 101, 129);
-  --hunter-green: rgb(58, 66, 90);
-  --brunswick-green: rgb(52, 52, 78);
+  --light-purple: rgb(138, 141, 177);
+  --navy-purple: rgb(87, 101, 129);
+  --grey-purple: rgb(58, 66, 90);
+  --dark-purple: rgb(52, 52, 78);
   --font: 'Roboto', sans-serif;; 
 }
 
 body {
   background-color: var(--timberwolf);
+}
+span {
+  color: var(--fern-green);
 }
 
 header {
@@ -49,7 +52,7 @@ p {
 
 .nav-link:hover {
   background-color: var(--timberwolf);
-  color: var(--brunswick-green);
+  color: var(--navy-purple);
 }
 
 .nav-link.active {

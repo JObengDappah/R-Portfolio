@@ -11,7 +11,8 @@ function Homepage() {
             </div>
             <div>
                 <br></br>
-                <p>Hello Wolrd! My name is Jason Obeng Dappah, and my journey to become a fullstack web developer for 6 months has thought me a lot of skills required to excel at this career path, Skills such as Html/Css/Javascript/Bootstrap/React/Jquery/...</p>
+                <p>Hello Wolrd! My name is Jason <span>Obeng Dappah</span>, and my journey to become a fullstack web developer for 6 months has thought me a lot of skills required to excel at this career path, Skills such as Html/Css/Javascript/Bootstrap/React/Jquery/...</p>
+                <br></br>
             </div>
         </div>
     );
