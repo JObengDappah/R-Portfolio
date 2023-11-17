@@ -18,7 +18,7 @@ function Contact() {
                 <Form.Group controlId='formMessage' className='mb-3'>
                     <Form.Control as='textarea' placeholder='Please enter your message!' rows={3} {...register('message', { required: true })} />
                 </Form.Group>
-                <Button className='button mb-3' type='submit'>Submit</Button>
+                <Button className='button mb-3' type='submit'>Send</Button>
             </Form>
         </Container>
     );
