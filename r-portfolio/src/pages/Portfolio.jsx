@@ -6,8 +6,8 @@ const projects = [
     {
         title: 'Wallet Whiz-2.0',
         image: '/WalletWhiz2.0.png',
-        deployedLink: 'https://walletwizzz-e48c873597e2.herokuapp.com/homepage',
-        repoLink: 'https://github.com/cslunsford/wallet-wiz',
+        deployedLink: 'https://frozen-brushlands-26062-9afa804fc3f2.herokuapp.com/',
+        repoLink: 'https://github.com/cslunsford/wallet-whiz-2.0',
     }, 
 ];
 

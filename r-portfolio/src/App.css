@@ -1,10 +1,10 @@
 :root {
-  --timberwolf: #dad7cdff;
+  --timberwolf: rgb(206, 205, 218);
   --sage: rgb(138, 141, 177);
   --fern-green: rgb(87, 101, 129);
   --hunter-green: rgb(58, 66, 90);
   --brunswick-green: rgb(52, 52, 78);
-  --font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  --font: 'Roboto', sans-serif;; 
 }
 
 body {
@@ -23,11 +23,6 @@ h1 {
 
 ul {
   list-style: none;
-}
-
-.proPic {
-  height: 320px;
-  width: 240px;
 }
 
 h2 {
