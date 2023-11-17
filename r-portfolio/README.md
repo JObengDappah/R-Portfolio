@@ -4,8 +4,6 @@
 
 [Description](#description)
 
-[Demo](#demo)
-
 [Screenshots](#screenshots)
 
 [Questions](#questions)
